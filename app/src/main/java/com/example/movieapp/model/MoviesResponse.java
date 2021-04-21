@@ -70,8 +70,7 @@ public class MoviesResponse implements Parcelable {
         dest.writeInt(this.totalPages);
     }
 
-    public MoviesResponse() {
-    }
+
 
     protected MoviesResponse(Parcel in) {
         this.page = in.readInt();

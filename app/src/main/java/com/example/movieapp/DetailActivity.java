@@ -60,10 +60,12 @@ public class DetailActivity extends AppCompatActivity {
 
             String poster = "https://image.tmdb.org/t/p/w500" + thumbnail;
 
+
             Glide.with(this)
                     .load(poster)
                     .placeholder(R.drawable.ic_load)
                     .into(imageView);
+
 
             nameOfMovie.setText(movieName);
             plotSynopsis.setText(synopsis);
